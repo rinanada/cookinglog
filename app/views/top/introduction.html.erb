@@ -1,0 +1,79 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <div class="wrapper">
+    <header class="header">
+      <%= link_to image_tag("IMG_6578.JPG"), root_path,class: :"header__img" %>
+    <span class="glyphicon glyphicon-align-right" aria-hidden="true"style="font-size: 40px"></span>
+    </header>
+    <nav class="nav">
+      <ul class="nav_container">
+        <li class="nav_container__page">
+          <%= link_to "HOME", root_path, class: :"nav_container__link" %>
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"style="font-size: 10px"></span>
+        </li>
+        <li class="nav_container__page">
+          <%= link_to "INTRODUCTION", introduction_path, class: :"nav_container__link" %>
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"style="font-size: 10px"></span>
+        </li>
+        <li class="nav_container__page cooks_list">
+          <a class="nav_container__link" href="">COOKS</a>
+          <ul class="nav_page_cooks_link">
+            <li><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"style="font-size: 10px"></span><%= link_to "SWEETS", sweets_path %></li>
+            <li><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"style="font-size: 10px"></span><%= link_to "DINNER", dinner_path %></li>
+            <li><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"style="font-size: 10px"></span><%= link_to "CHINESE", chinese_path %></li>
+          </ul>
+        </li>
+        <li class="nav_container__page">
+          <%= link_to "CONTACTS", contacts_path, class: :"nav_container__link" %>
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"style="font-size: 10px"></span>
+        </li>
+      </ul>
+    </nav>
+    <div class="page-title">
+      <h3 class="page-title_text">INTRODUCTION</h3>
+    </div>
+    <section class="food-list" style="visibility:hidden">
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+      <article class="food-list__content">
+        <a class="food-list-img" href="">
+          <img src="" width="220" height="220" >
+        </a>
+      </article>
+    </section>
+    <section class="introduction-text">
+      <h2>About</h2>
+      <p>サイト運営者が趣味で作った料理を載せるサイトです。<br><br>時折cookingしていない、運営おすすめの料理なども出てきますがご容赦ください。</p><br>
+      <h2>Used</h2>
+      <p>html, css, Sass, jquery, Ruby on Rails, heroku, etc...</p>
+    </section>
+    <footer class="footer">
+      <a href="">
+        <img class="" src="assets/logo_w.png" alt=""height="100" >
+      </a>
+    </footer>
+  </div>
+<script type="text/javascript" src="assets/top.js"></script>
